@@ -1,0 +1,74 @@
+/* Umum */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Latar hitam */
+  color: #fff; /* Font putih */
+  line-height: 1.8;
+  text-align: center; /* Semua teks di tengah */
+}
+
+header {
+  padding: 20px 0;
+  position: relative;
+}
+
+#main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  animation: slideIn 1.5s ease-out forwards; /* Efek animasi awal */
+  position: relative;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.text-box {
+  border: 2px solid #fff; /* Border putih */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px; /* Sedikit melengkung */
+  background: rgba(255, 255, 255, 0.1); /* Transparansi */
+  text-align: justify; /* Format teks rata kiri-kanan */
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 1px solid #444;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
